@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('This is a devops_project page!! for CI/CD Pipeline');
+  res.send('hey there, welcome to my website! i have used different tools to create this website, such as docker, nodejs, express and more. i hope you like it!using jenkins');
 });
 
 app.listen(port, () => {
